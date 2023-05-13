@@ -1,0 +1,12 @@
+{
+  "name": "notes-wcf",
+  "version": "1.0.0",
+  "description": "A repo containing all the websites I've ever built for the notes I've taken at Winners Campus Fellowship, University of Nigeria, Nsukka. Spanning May 2023 -",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

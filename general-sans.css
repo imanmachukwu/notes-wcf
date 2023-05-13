@@ -14,3 +14,19 @@
        font-display: swap;
        font-style: italic;
 }
+
+@font-face {
+  font-family: 'GeneralSans-VariableRegular';
+  src: url('font/GeneralSans-Variable.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: italic;
+}
+
+@font-face {
+  font-family: 'GeneralSans-VariableItalic';
+  src: url('font/GeneralSans-VariableItalic.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: italic;
+}

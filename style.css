@@ -1,1 +1,166 @@
 @import url("general-sans.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #def2dd;
+    color: #000;
+    font-family: "GeneralSans-Regular", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    font-weight: 400;
+    padding-left: 35px;
+    padding-right: 35px;
+    -ms-overflow-style: none;
+}
+
+.italics {
+    font-family: "GeneralSans-Italic";
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+#hero {
+    height: 100%;
+    width: 100%;
+}
+
+#hero-contn {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#hero-bio-contn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hero-bio {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#h-bio-list-contn {
+    position: relative;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 50px;
+}
+
+/*
+#biotext-1 {
+    margin-left: 0;
+}
+
+#biotext-2 {
+    margin-left: 70px;
+}
+
+#biotext-3 {
+    margin-left: 140px;
+}
+
+#biotext-4 {
+    margin-left: 210px;
+}
+*/
+
+.hero-note-contn {
+    width: 100%;
+    height: 100%;
+}
+
+.note-contn {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.note-list {
+    font-size: 18px;
+}
+
+#second-sect {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.note-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.qu-right, .d-block {
+    width: 50%;
+    align-self: flex-end;
+}
+
+.f-30 {
+    font-size: 30px;
+}
+
+.d-block {
+    display: block;
+}
+
+.b-margin {
+    margin-bottom: 20px;
+}
+
+#sec-quote {
+    margin: 0 -35px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #260029;
+    color: #f00;
+    font-size: 150px;
+}
+
+.tw-sects {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+
+
+.final-sects {
+    font-size: 80px;
+    line-height: 75px;
+}
