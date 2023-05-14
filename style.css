@@ -12,8 +12,8 @@ html {
 }
 
 body {
-    background: #def2dd;
-    color: #000;
+    background: #141414;
+    color: #fff;
     font-family: "GeneralSans-Medium", sans-serif;
     width: 100vw;
     height: 100vh;
@@ -22,6 +22,23 @@ body {
     padding-right: 35px;
     letter-spacing: 1.5px;
     -ms-overflow-style: none;
+}
+
+.image-track > .image {
+    width: 80vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 50%;
+    border-radius: 5px;
+}
+
+.image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(0%, -50%);
 }
 
 .italics {
@@ -57,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero-bio-contn {
     display: flex;
     justify-content: flex-end;
+    color: #fff;
 }
 
 #hero-bio {
@@ -71,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 /*
