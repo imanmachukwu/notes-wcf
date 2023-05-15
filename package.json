@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "locomotive-scroll": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/locomotive-scroll": "^4.1.0"
   }
 }

@@ -8,122 +8,130 @@
     <link href="locomotive-scroll.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <script src="script.js"></script>
+    <script src="locomotive-scroll.min.js"></script>
+    <script>
+        (function () {
+            var scroll = new LocomotiveScroll();
+        })();
+    </script>
 </head>
 <body>
-    <section id="hero">
-        <div id="image-container">
-            <div class="image-track">
-                <img class="image" src="images/IMG-20230513-WA0015.jpg" alt="Girl on white dancing" draggable="false">
-                <img class="image" src="images/IMG-20230513-WA0016.jpg" alt="Guy on white dancing" draggable="false">
-                <img class="image" src="images/IMG-20230513-WA0017.jpg" alt="Ladies in vertical array worshipping God" draggable="false">
-                <img class="image" src="images/IMG-20230513-WA0014.jpg" alt="Usher dancing" draggable="false">
-                <img class="image" src="images/IMG-20230513-WA0004.jpg" alt="Lady reading the Bible" draggable="false">
-                <img class="image" src="images/IMG-20230513-WA0003.jpg" alt="Coordinator, assistant coordinator and incoming SUG president listening to the Word" draggable="false">
-                <img class="image" src="images/IMG-20230513-WA0012.jpg" alt="People worshipping God" draggable="false">
-                <img class="image" src="images/IMG-20230513-WA0011.jpg" alt="Guy worshipping God" draggable="false">
-                <img class="image" src="images/IMG-20230513-WA0010.jpg" alt="Lady worshipping God" draggable="false">
-                <img class="image" src="images/IMG-20230513-WA0008.jpg" alt="Coordinator preaching the Word" draggable="false">
-                <img class="image" src="images/IMG-20230513-WA0007.jpg" alt="Coordinator preaching the Word 2" draggable="false">
-                <img class="image" src="images/IMG-20230513-WA0006.jpg" alt="Choir singing" draggable="false">
-                <img class="image" src="images/IMG-20230513-WA0005.jpg" alt="Choir during ministration" draggable="false">
+    <div data-scroll-container>
+        <section id="hero" data-scroll-section>
+            <div id="image-container">
+                <div class="image-track">
+                    <img class="image" src="images/IMG-20230513-WA0015.jpg" alt="Girl on white dancing" draggable="false">
+                    <img class="image" src="images/IMG-20230513-WA0016.jpg" alt="Guy on white dancing" draggable="false">
+                    <img class="image" src="images/IMG-20230513-WA0017.jpg" alt="Ladies in vertical array worshipping God" draggable="false">
+                    <img class="image" src="images/IMG-20230513-WA0014.jpg" alt="Usher dancing" draggable="false">
+                    <img class="image" src="images/IMG-20230513-WA0004.jpg" alt="Lady reading the Bible" draggable="false">
+                    <img class="image" src="images/IMG-20230513-WA0003.jpg" alt="Coordinator, assistant coordinator and incoming SUG president listening to the Word" draggable="false">
+                    <img class="image" src="images/IMG-20230513-WA0012.jpg" alt="People worshipping God" draggable="false">
+                    <img class="image" src="images/IMG-20230513-WA0011.jpg" alt="Guy worshipping God" draggable="false">
+                    <img class="image" src="images/IMG-20230513-WA0010.jpg" alt="Lady worshipping God" draggable="false">
+                    <img class="image" src="images/IMG-20230513-WA0008.jpg" alt="Coordinator preaching the Word" draggable="false">
+                    <img class="image" src="images/IMG-20230513-WA0007.jpg" alt="Coordinator preaching the Word 2" draggable="false">
+                    <img class="image" src="images/IMG-20230513-WA0006.jpg" alt="Choir singing" draggable="false">
+                    <img class="image" src="images/IMG-20230513-WA0005.jpg" alt="Choir during ministration" draggable="false">
+                </div>
             </div>
-        </div>
-        <div id="hero-contn">
-            <div id="hero-bio-contn">
-                <div id="hero-bio">
-                    <div id="h-bio-list-contn">
-                        <ul id="h-bio-list">
-                            <li>
-                                <h2 id="hero-biotext">
-                                    <span id="biotext-1">12th May</span>
-                                </h2>
-                            </li>
-                            <li>
-                                <h2 id="hero-biotext">
-                                    <span id="biotext-2">WCF-UNN</span>
-                                </h2>
-                            </li>
-                            <li>
-                                <h2 id="hero-biotext">
-                                    <span id="biotext-3">Sir Eben</span>
-                                </h2>
-                            </li>
-                            <li>
-                                <h2 id="hero-biotext">
-                                    <span id="biotext-4">BORN FROM ABOVE</span>
-                                </h2>
-                            </li>
+            <div id="hero-contn">
+                <div id="hero-bio-contn">
+                    <div id="hero-bio">
+                        <div id="h-bio-list-contn">
+                            <ul id="h-bio-list">
+                                <li>
+                                    <h2 id="hero-biotext">
+                                        <span id="biotext-1">12th May</span>
+                                    </h2>
+                                </li>
+                                <li>
+                                    <h2 id="hero-biotext">
+                                        <span id="biotext-2">WCF-UNN</span>
+                                    </h2>
+                                </li>
+                                <li>
+                                    <h2 id="hero-biotext">
+                                        <span id="biotext-3">Sir Eben</span>
+                                    </h2>
+                                </li>
+                                <li>
+                                    <h2 id="hero-biotext">
+                                        <span id="biotext-4">BORN FROM ABOVE</span>
+                                    </h2>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-note-contn">
+                    <div class="note-contn">
+                        <h4 class="note-title">2 Things We Will Be Challenged On:</h4>
+                        <ul class="note-list">
+                            <li><span>— </span><span>Our love for God. Rom. 8:24</span></li>
+                            <li><span>— </span><span>Eph. 3:10</span></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="hero-note-contn">
+        </section>
+        <section id="second-sect" data-scroll-section>
+            <div class="note-contn qu-right f-30" data-scroll data-scroll-speed="3">
+                <p class="note-title">
+                    <span>Maybe what we seek for(our vision) is within us.</span>
+                    <span>We are born as babes in Christ.</span>
+                    <span>But we grow into the promises of God.</span>
+                </p>
+            </div>
+            <div class="note-contn f-30">
+                <p class="note-title italics">
+                    <span>Through knowledge is the just established.</span>
+                </p>
+            </div>
+            <div class="note-contn f-30">
+                <p class="note-title">
+                    <span>We have the raw materials (the Word of God). But no working knowledge</span>
+                    <span class="d-block">of the Scriptures.</span>
+                </p>
+                <p class="note-title b-margin">
+                    <span>If you pretend it,</span>
+                    <span class="d-block">time will reveal we are faking it.</span>
+                </p>
+            </div>
+        </section>
+        <section id="sec-quote" data-scroll-section>
+            <div class="note-contn">
+                <p class="note-title">
+                    <span>E no go red for me.</span>
+                </p>
+            </div>
+        </section>
+        <section class="tw-sects" data-scroll-section>
+            <div class="tw-sect">
                 <div class="note-contn">
-                    <h4 class="note-title">2 Things We Will Be Challenged On:</h4>
+                    <h4 class="note-title">So What Do I Do?</h4>
                     <ul class="note-list">
-                        <li><span>— </span><span>Our love for God. Rom. 8:24</span></li>
-                        <li><span>— </span><span>Eph. 3:10</span></li>
+                        <li><span>— </span><span>Look out for these areas we need help on.</span></li>
+                        <li><span>— </span><span>Admit you have not found it.</span></li>
+                        <li><span>— </span><span>Stay with the Holy Spirit and think. Think.</span></li>
+                        <li><span>— </span><span>Start where you are.</span></li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="second-sect">
-        <div class="note-contn qu-right f-30">
-            <p class="note-title">
-                <span>Maybe what we seek for(our vision) is within us.</span>
-                <span>We are born as babes in Christ.</span>
-                <span>But we grow into the promises of God.</span>
-            </p>
-        </div>
-        <div class="note-contn f-30">
-            <p class="note-title italics">
-                <span>Through knowledge is the just established.</span>
-            </p>
-        </div>
-        <div class="note-contn f-30">
-            <p class="note-title">
-                <span>We have the raw materials (the Word of God). But no working knowledge</span>
-                <span class="d-block">of the Scriptures.</span>
-            </p>
-            <p class="note-title b-margin">
-                <span>If you pretend it,</span>
-                <span class="d-block">time will reveal we are faking it.</span>
-            </p>
-        </div>
-    </section>
-    <section id="sec-quote">
-        <div class="note-contn">
-            <p class="note-title">
-                <span>E no go red for me.</span>
-            </p>
-        </div>
-    </section>
-    <section class="tw-sects">
-        <div class="tw-sect">
-            <div class="note-contn">
-                <h4 class="note-title">So What Do I Do?</h4>
-                <ul class="note-list">
-                    <li><span>— </span><span>Look out for these areas we need help on.</span></li>
-                    <li><span>— </span><span>Admit you have not found it.</span></li>
-                    <li><span>— </span><span>Stay with the Holy Spirit and think. Think.</span></li>
-                    <li><span>— </span><span>Start where you are.</span></li>
-                </ul>
+            <div class="one-sect">
+                <div class="final-sects">
+                    <p>
+                        <span>BUT YOU MUST BE BORN OF THE SPIRIT.</span>
+                    </p>
+                </div>
+                <div class="final-sects">
+                    <p>
+                        <span>ARE YOU BORN OF THE SPIRIT?</span>
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="one-sect">
-            <div class="final-sects">
-                <p>
-                    <span>BUT YOU MUST BE BORN OF THE SPIRIT.</span>
-                </p>
-            </div>
-            <div class="final-sects">
-                <p>
-                    <span>ARE YOU BORN OF THE SPIRIT?</span>
-                </p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <script src="locomotive-scroll.js"></script>
 </body>
 </html>
