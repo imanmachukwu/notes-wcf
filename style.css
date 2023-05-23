@@ -24,6 +24,13 @@ body {
     cursor: default;
 }
 
+#image-container {
+    position: fixed;
+    left: 25%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
 .image-track > .image {
     width: 80vmin;
     height: 56vmin;
